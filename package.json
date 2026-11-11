@@ -1,0 +1,22 @@
+{
+  "name": "shuttlecock-champion",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SHUTTLECOCK CHAMPION – ĐÁ CẦU TUỔI THƠ: 2D HTML5 Arcade Sports Game built with Phaser 3 & TypeScript",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:crazygames": "tsc && vite build && powershell -NoProfile -Command \"$ProgressPreference = 'SilentlyContinue'; if (Test-Path shuttlecock-champion-crazygames.zip) { Remove-Item shuttlecock-champion-crazygames.zip }; Compress-Archive -Path ./dist/* -DestinationPath ./shuttlecock-champion-crazygames.zip -Force\"",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "phaser": "^3.87.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
+

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#bae6fd"/>
+    </linearGradient>
+    <linearGradient id="court" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#115e59"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="480" fill="url(#sky)"/>
+  <rect y="480" width="1280" height="240" fill="url(#court)"/>
+  <line x1="100" y1="520" x2="1180" y2="520" stroke="#ffffff" stroke-width="6"/>
+  <circle cx="1060" cy="120" r="65" fill="#fde047" opacity="0.85"/>
+  <!-- Title Banner -->
+  <rect x="180" y="90" width="920" height="190" rx="32" fill="#0f172a" opacity="0.88" stroke="#facc15" stroke-width="6"/>
+  <text x="640" y="175" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="bold" fill="#fde047" text-anchor="middle">SHUTTLECOCK CHAMPION</text>
+  <text x="640" y="235" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="bold" fill="#38bdf8" text-anchor="middle">ĐÁ CẦU TUỔI THƠ – VIETNAMESE SCHOOLYARD</text>
+  <!-- Shuttlecock illustration -->
+  <g transform="translate(640, 390) rotate(-18) scale(2.2)" stroke="#1e293b" stroke-width="2">
+    <path d="M0 6 L-18 -22 L-10 -24 L0 2 Z" fill="#ffffff"/>
+    <path d="M0 6 L-9 -26 L-1 -26 L0 2 Z" fill="#f472b6"/>
+    <path d="M0 6 L1 -26 L9 -26 L0 2 Z" fill="#facc15"/>
+    <path d="M0 6 L10 -24 L18 -22 L0 2 Z" fill="#38bdf8"/>
+    <rect x="-8" y="4" width="16" height="6" rx="2" fill="#f8fafc"/>
+    <rect x="-12" y="10" width="24" height="5" rx="2" fill="#facc15"/>
+    <rect x="-14" y="15" width="28" height="6" rx="3" fill="#374151"/>
+  </g>
+</svg>
+
